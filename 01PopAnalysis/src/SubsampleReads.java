@@ -3,15 +3,12 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class SubsampleReads {
     public static void main(String[] args) {
         SubsampleReads subsampleReads = new SubsampleReads();
         subsampleReads.Subsample(args[0], args[1], args[2], args[3]);
     }
-    private static final Logger logger = LoggerFactory.getLogger(SubsampleReads.class);
     @SuppressWarnings("unused")
     public void Subsample(String infile, String outfile, String readsNum) {
         this.Subsample("1", infile, outfile, readsNum);
@@ -67,7 +64,7 @@ public class SubsampleReads {
             System.out.println("final reads count: " + readCount);
 
         } catch (Exception e){
-            logger.error("An error occurred while subsampling reads", e);
+            e.printStackTrace();
         }
         System.out.println("all time: " + (System.currentTimeMillis() - timeAll));
     }
