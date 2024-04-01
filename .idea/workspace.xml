@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256e273d-51db-4eda-b1b2-d42599a42c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/SubsampleReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/01PopAnalysis/src/SubsampleReads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1711872354515" duration="231000" />
       <workItem from="1711872626870" duration="7522000" />
       <workItem from="1711946689850" duration="78000" />
-      <workItem from="1711946811705" duration="6320000" />
+      <workItem from="1711946811705" duration="10436000" />
     </task>
     <servers />
   </component>
