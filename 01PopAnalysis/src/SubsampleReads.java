@@ -30,10 +30,10 @@ public class SubsampleReads {
                     IDseq.put(ID, sb.toString());
                     ID = temp.substring(1);
                     sb.delete(0, sb.length());
-                    br.readLine();
-                    br.readLine();
                 } else {
                     sb.append(temp.substring(1));
+                    br.readLine();
+                    br.readLine();
                 }
             }
             IDseq.put(ID, sb.toString());
