@@ -20,7 +20,6 @@ public class SubsampleReads {
         Collections.shuffle(list_shuffle, rnd);
         for (int i = 0; i < readNum; i++) {
             String str = IDseq.get(list_shuffle.get(i));
-            System.out.println(str);
             String[] lines = str.split("\t");
             bw.write(list_shuffle.get(i));
             bw.newLine();
