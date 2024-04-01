@@ -1,67 +1,67 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.*;
 
 public class SubsampleReads {
-    public static void main(String[] args) {
+
+    private static  final int CHUNK_SIZE = 10000;
+
+    public static void main(String[] args) throws FileNotFoundException {
         SubsampleReads subsampleReads = new SubsampleReads();
         subsampleReads.Subsample(args[0], args[1], args[2], args[3]);
     }
+
     @SuppressWarnings("unused")
-    public void Subsample(String infile, String outfile, String readsNum) {
+    public void Subsample(String infile, String outfile, String readsNum) throws FileNotFoundException {
         this.Subsample("1", infile, outfile, readsNum);
     }
-    public void Subsample(String seed, String infile, String outfile, String readsNum) {
+
+    public void shuffleAndWriteTofile(HashMap<String, String> IDseq, Random rnd, BufferedWriter bw, int readNum) throws IOException {
+        List<String> list_shuffle = new ArrayList<>(IDseq.keySet());
+        Collections.shuffle(list_shuffle, rnd);
+        for (int i = 0; i < readNum; i++) {
+            String str = IDseq.get(list_shuffle.get(i));
+            System.out.println(str);
+            String[] lines = str.split("\t");
+            bw.write(list_shuffle.get(i));
+            bw.newLine();
+            for (String line : lines) {
+                bw.write(line);
+                bw.newLine();
+            }
+        }
+    }
+
+    public void Subsample(String seed, String infile, String outfile, String readsNum) throws FileNotFoundException {
         long timeAll = System.currentTimeMillis();
         try {
             BufferedReader br = new BufferedReader(new FileReader(infile));
             BufferedWriter bw = new BufferedWriter(new FileWriter(outfile));
-            String temp;
             HashMap<String, String> IDseq = new HashMap<>(700000);
-            StringBuilder sb = new StringBuilder();
-            HashSet<String> sampleSet = new HashSet<>(700000);
+            String ID = "";
+            StringBuilder sequence = new StringBuilder();
+            String str = "";
 
-            long timeRead = System.currentTimeMillis();
-            String ID = br.readLine().substring(1);
-            while ((temp = br.readLine()) != null) {
-                if (temp.startsWith("@")) {
-                    IDseq.put(ID, sb.toString());
-                    ID = temp.substring(1);
-                    sb.delete(0, sb.length());
-                } else {
-                    sb.append(temp.substring(1));
-                    br.readLine();
-                    br.readLine();
+            Random rnd = new Random(Integer.parseInt(seed));
+            String line;
+            int lineCount = 0;
+
+            while ((line = br.readLine()) != null) {
+                ID = line;
+                sequence.append(br.readLine()).append("\t");
+                sequence.append(br.readLine()).append("\t");
+                sequence.append(br.readLine());
+                str = sequence.toString();
+                IDseq.put(ID, str);
+                sequence.delete(0, sequence.length());
+                lineCount++;
+                if (lineCount % CHUNK_SIZE == 0) {
+                    shuffleAndWriteTofile(IDseq, rnd, bw, Integer.parseInt(readsNum));
+                    IDseq.clear();
                 }
             }
-            IDseq.put(ID, sb.toString());
             br.close();
-            System.out.println("time cost on reading file: " + (System.currentTimeMillis() - timeRead));
-
-            // shuffle
-            long timeShuffle = System.currentTimeMillis();
-            List<String> list_shuffle = new ArrayList<>(IDseq.keySet());
-            Random rnd = new Random(Integer.parseInt(seed));
-            Collections.shuffle(list_shuffle, rnd);
-            // sample of reads
-            int reads = Integer.parseInt(readsNum);
-            sampleSet.addAll(list_shuffle.subList(0, reads));
-            System.out.println("Shuffle and hashset time: " + (System.currentTimeMillis() - timeShuffle));
-
-            long timeWrite = System.currentTimeMillis();
-            long readCount = 0;
-            for (String s : sampleSet) {
-                bw.write(">" + s + "\n");
-                bw.write(IDseq.get(s) + "\n");
-                readCount++;
-            }
-
             bw.flush();
             bw.close();
-            System.out.println("final time: " + (System.currentTimeMillis() - timeWrite));
-            System.out.println("final reads count: " + readCount);
 
         } catch (Exception e){
             e.printStackTrace();
