@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01PopAnalysis/01PopAnalysis.iml" filepath="$PROJECT_DIR$/01PopAnalysis/01PopAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pop/pop.iml" filepath="$PROJECT_DIR$/pop/pop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weate/weate.iml" filepath="$PROJECT_DIR$/weate/weate.iml" />
     </modules>
   </component>
 </project>

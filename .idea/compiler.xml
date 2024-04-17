@@ -10,5 +10,9 @@
         <module name="Da_Zheng" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="pop" target="" />
+      <module name="weate" target="" />
+    </bytecodeTargetLevel>
   </component>
 </project>

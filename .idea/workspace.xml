@@ -5,20 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256e273d-51db-4eda-b1b2-d42599a42c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01PopAnalysis/data/output.r.fq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01PopAnalysis/data/test.r2.fq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ana/ana.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ana/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop/src/IOUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop/src/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop/src/SubsampleByShuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop/src/ssReads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weate/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weate/weate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/output.fa" beforeDir="false" afterPath="$PROJECT_DIR$/01PopAnalysis/data/output.f.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/test.f1.fq" beforeDir="false" afterPath="$PROJECT_DIR$/01PopAnalysis/data/test.f1.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/SubsampleReads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/SubsampleReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00refer/SubsampleByShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop/src/SubsampleByShuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/01PopAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop/pop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/output.f.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/output.f.fq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/output.r.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/output.r.fq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/test.f1.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/test.f1.fq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/test.r2.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/test.r2.fq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop/src/ssReads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/production/01PopAnalysis/SubsampleReads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="COMPILER_PROCESS_HEAP_SIZE" value="1024" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SirLearning&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SirLearning/js.git&quot;,
+    &quot;accountId&quot;: &quot;3c8f18a6-57f8-459b-8436-51c46bde9dac&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SubsampleByShuffle.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,33 +86,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.SubsampleReads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.listString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.seqkitScript.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhengda/Documents/Java/js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.ReadsSample.susbsampleReads.executor": "Debug",
+    "Application.SubsampleReads.executor": "Run",
+    "Application.listString.executor": "Debug",
+    "Application.seqkitScript.executor": "Debug",
+    "Application.ssReads.executor": "Coverage",
+    "Application.susbsampleReads.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/zhengda/Documents/Java/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20114942",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaCloudProjectLink">
     <option name="lastReportId" value="DvW9b" />
     <option name="linkedProjectId" value="AlBjO" />
@@ -93,42 +125,35 @@
     <option name="organizationId" value="p9dgN" />
     <option name="userId" value="3Kyra" />
   </component>
-  <component name="QodanaHighlightedReportService">
-    <option name="cloudReportPersistedInfo">
-      <CloudReportPersistedInfo>
-        <option name="projectId" value="AlBjO" />
-        <option name="reportId" value="DvW9b" />
-      </CloudReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pop" />
+      <recent name="$PROJECT_DIR$/pop/src/ReadsSample" />
+      <recent name="$PROJECT_DIR$/01PopAnalysis/src" />
+      <recent name="$PROJECT_DIR$/01PopAnalysis" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/00refer" />
-      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="susbsampleReads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="susbsampleReads" />
-      <module name="01PopAnalysis" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="pop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.susbsampleReads" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="pop" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -181,7 +206,11 @@
       <workItem from="1711963093415" duration="2000" />
       <workItem from="1711963105191" duration="2809000" />
       <workItem from="1711967333331" duration="19250000" />
-      <workItem from="1712036337515" duration="2549000" />
+      <workItem from="1712036337515" duration="9486000" />
+      <workItem from="1713266345002" duration="629000" />
+      <workItem from="1713268323163" duration="11317000" />
+      <workItem from="1713334270359" duration="434000" />
+      <workItem from="1713334710980" duration="2303000" />
     </task>
     <servers />
   </component>
@@ -197,5 +226,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/js$ssReads.ic" NAME="ssReads Coverage Results" MODIFIED="1713335821286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
