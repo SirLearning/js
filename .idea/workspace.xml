@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e273d-51db-4eda-b1b2-d42599a42c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ana/ana.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ana/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop/src/IOUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop/src/IOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop/src/SubsampleByShuffle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop/src/ssReads.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weate/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weate/weate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00refer/SubsampleByShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop/src/SubsampleByShuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/01PopAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop/pop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/output.f.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/output.f.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/output.r.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/output.r.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/test.f1.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/test.f1.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/data/test.r2.fq" beforeDir="false" afterPath="$PROJECT_DIR$/pop/data/test.r2.fq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PopAnalysis/src/susbsampleReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop/src/ssReads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/production/01PopAnalysis/SubsampleReads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="256e273d-51db-4eda-b1b2-d42599a42c6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +188,7 @@
       <workItem from="1713266345002" duration="629000" />
       <workItem from="1713268323163" duration="11317000" />
       <workItem from="1713334270359" duration="434000" />
-      <workItem from="1713334710980" duration="2303000" />
+      <workItem from="1713334710980" duration="2787000" />
     </task>
     <servers />
   </component>
