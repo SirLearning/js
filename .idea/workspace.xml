@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256e273d-51db-4eda-b1b2-d42599a42c6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="$PROJECT_DIR$/../maven" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -80,8 +79,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/zhengda/Documents/Java/js",
@@ -94,17 +95,10 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.20114942",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "leetcode.id",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaCloudProjectLink">
-    <option name="lastReportId" value="DvW9b" />
-    <option name="linkedProjectId" value="AlBjO" />
-    <option name="linkedProjectName" value="javasc" />
-    <option name="organizationId" value="p9dgN" />
-    <option name="userId" value="3Kyra" />
-  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pop" />
@@ -191,6 +185,7 @@
       <workItem from="1713268323163" duration="11317000" />
       <workItem from="1713334270359" duration="434000" />
       <workItem from="1713334710980" duration="9898000" />
+      <workItem from="1713688624316" duration="2834000" />
     </task>
     <servers />
   </component>
